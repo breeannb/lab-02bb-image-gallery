@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+li { 
+    list-style-type: none;
+    display: flex-end;
+}
+
+
+.fresh-prince-pics{
+    height: 300px;
+    width: 200px;
+    border: 1px solid orange;
+    border-radius:2px;
+    border-width: 2px;
+    box-shadow: 1px 2px 2px lightgray;
+}
+
+
+.will {
+    height: 125px;
+    width: 100%;
+    object-fit: cover;
+}
+
+    .will-content{ 
+        padding: 5px;
+        font-family: sans-serif;
+        overflow-y: hidden;
+    }
+
+    .will-name {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 1.05em;
+    }
+
+    .will-description{
+        font-size: .9em;
+        height: 80px
+    }
